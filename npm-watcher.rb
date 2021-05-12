@@ -7,6 +7,5 @@ class NpmWatcher < Formula
 
   def install
     bin.install "npm-watcher"
-    system "/usr/local/bin/npm-watcher"
   end
 end
